@@ -5,13 +5,13 @@ const FaqItem = () => {
   return (
     <div className="border border-[#E5EAF4]faq-item rounded-xl">
       <div
-        className="py-9 px-6 cursor-pointer flex items-center justify-between gap-4 flex-wrap"
+        className="py-9 px-6 cursor-pointer flex items-center justify-between gap-4"
         onClick={() => setFaqOpen(!faqOpen)}
       >
         <h4 className={`${faqOpen && "text-primary"} transition-all text-xl`}>
           What are saas flexible payment options?
         </h4>
-        <div>
+        <div className="w-10">
           {faqOpen ? (
             <img src="/images/icons/minus.png" alt="" />
           ) : (

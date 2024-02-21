@@ -3,7 +3,7 @@ import BenefitItem from "./BenefitItem";
 const Benefits = () => {
   return (
     <section className="py-24">
-      <div className="container grid grid-cols-2 gap-[26px]">
+      <div className="container grid md:grid-cols-2 gap-[26px]">
         <div className="py-10">
           <h4 className="text-[30px] font-light">Maximise</h4>
           <h2 className="mt-3 text-[48px] leading-[62px]">

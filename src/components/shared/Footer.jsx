@@ -9,8 +9,8 @@ const Footer = () => {
       style={{ backgroundImage: "url(/images/footer-banner.png)" }}
     >
       <div className="container">
-        <div className="pt-20 pb-4 flex items-center justify-between gap-5 flex-wrap border-b border-[#EFEFEF38]">
-          <h2 className="text-white text-[38px] font-light w-[70%]">
+        <div className="pt-20 pb-4 flex items-center justify-between gap-5 flex-wrap flex-col md:flex-row border-b border-[#EFEFEF38]">
+          <h2 className="text-white text-[32px] sm:text-[38px] font-light text-center md:text-left md:w-[70%]">
             Browse our exclusive{" "}
             <span className="font-bold">SaaS seller partner offerings,</span>{" "}
             and <span className="font-bold">unlock growth</span> with SaaSPay.
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <div className="py-16">
-          <div className="grid grid-cols-4 gap-12">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
             <div className="flex items-center gap-[14px]">
               <div className="bg-white rounded-full w-12 h-12 flex items-center justify-center">
                 <img src="/images/icons/location.png" alt="location" />
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-4 gap-12 mt-20 text-white">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-20 text-white">
             <div>
               <h3 className="text-lg text-white">SaaSPay</h3>
               <ul className="mt-8 text-sm flex flex-col gap-5">

@@ -5,7 +5,7 @@ const Faqs = () => {
   return (
     <section className="py-28">
       <div className="container">
-        <div className="w-[60%] mx-auto">
+        <div className="sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto">
           <div className="text-center">
             <span className="text-lg">FAQs</span>
             <Heading

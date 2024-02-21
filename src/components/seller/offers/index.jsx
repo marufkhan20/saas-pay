@@ -15,7 +15,7 @@ const Offers = () => {
           }
         />
 
-        <div className="mt-24 grid grid-cols-2 gap-[50px] w-[80%] mx-auto">
+        <div className="mt-24 grid sm:grid-cols-2 gap-[50px] lg:w-[80%] mx-auto">
           <OfferItem
             bgColor="bg-[#9DE2FD]/15"
             title={

@@ -15,7 +15,7 @@ const CaseStudies = () => {
         />
 
         <div className="relative">
-          <div className="w-[60%] mx-auto mt-20">
+          <div className="sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto mt-20">
             <div className="flex items-center gap-3">
               <div>
                 <img src="images/companies/2.png" alt="" />
@@ -29,7 +29,7 @@ const CaseStudies = () => {
             </div>
 
             <div className="mt-8">
-              <h2 className="text-[64px] leading-[70px]">
+              <h2 className="text-[28px] sm:text-[40px] md:text-[48px] lg:text-[64px] lg:leading-[70px]">
                 How AWS Marketplace closed deals worth $M using SaaSPay
               </h2>
               <p className="mt-3 text-2xl leading-[38px]">
@@ -50,11 +50,11 @@ const CaseStudies = () => {
             </div>
           </div>
 
-          <div className="absolute top-10 left-0">
+          <div className="hidden lg:block absolute top-10 left-0">
             <img src="/images/icons/case-study.png" alt="" />
           </div>
 
-          <div className="absolute bottom-10 right-0">
+          <div className="hidden lg:block absolute bottom-10 right-0">
             <img src="/images/icons/case-study.png" alt="" />
           </div>
         </div>

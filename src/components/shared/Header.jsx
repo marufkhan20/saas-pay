@@ -2,9 +2,11 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { navItems } from "../../constants";
 import Button from "../ui/Button";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   const [navBg, setNavBg] = useState(false);
+  const [openNav, setOpenNav] = useState(false);
   const location = useLocation();
   const { pathname } = location;
 
@@ -27,7 +29,7 @@ const Header = () => {
         <Link to="/">
           <img src="/images/logo.png" alt="saas pay" />
         </Link>
-        <nav>
+        <nav className="hidden lg:block">
           <ul className="flex gap-8 text-lg">
             {navItems?.map((item) => (
               <li
@@ -51,11 +53,20 @@ const Header = () => {
             ))}
           </ul>
         </nav>
-        <div className="flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-1">
           <Button variant="transparent">Login</Button>
           <Button>Sign Up</Button>
         </div>
+        <img
+          className="cursor-pointer block lg:hidden"
+          src="/images/icons/menu.png"
+          onClick={() => setOpenNav(true)}
+          alt="menu"
+        />
       </div>
+
+      {/* mobile nav */}
+      <MobileNav openNav={openNav} setOpenNav={setOpenNav} />
     </header>
   );
 };

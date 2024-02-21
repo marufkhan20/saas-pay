@@ -2,17 +2,18 @@ const Process = () => {
   return (
     <section className="py-[150px] border-t border-[#323B4B1A]">
       <div className="container">
-        <h2 className="text-[114px] text-[#EDE8F880]/50 text-center">
+        <h2 className="text-[44px] sm:text-[70px] md:text-[90px] lg:text-[114px] text-[#EDE8F880]/50 text-center">
           Discover the Process
         </h2>
 
-        <div className="mt-28 grid grid-cols-2 gap-10 items-center">
+        <div className="mt-8 sm:mt-14 md:mt-28 grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-[64px] leading-[75px] text-black">
-              Sell <span className="text-primary">Smarter</span>, <br />
+            <h2 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] text-center md:text-left lg:leading-[75px] text-black">
+              Sell <span className="text-primary">Smarter</span>,{" "}
+              <br className="hidden md:block" />
               Convert <span className="text-primary">Faster</span>
             </h2>
-            <h4 className="mt-[18px] text-2xl leading-[38px] text-secondary/50 font-light w-[60%]">
+            <h4 className="mt-[18px] text-2xl leading-[38px] text-secondary/50 font-light text-center md:text-left md:w-[60%]">
               Go from Prospect to Purchase with upfront payments. Convert
               monthly subscribers to annual customers with one-click flexible
               financing.{" "}
@@ -26,7 +27,9 @@ const Process = () => {
                   <img className="mt-2" src="/images/icons/tick.png" alt="" />
                 </div>
                 <div>
-                  <h4 className="mb-2 text-[26px]">Business Details</h4>
+                  <h4 className="mb-2 text-[20px] md:text-[26px]">
+                    Business Details
+                  </h4>
                   <img src="/images/icons/placeholder.png" alt="" />
                 </div>
               </div>
@@ -35,14 +38,16 @@ const Process = () => {
                   <img className="mt-2" src="/images/icons/tick.png" alt="" />
                 </div>
                 <div>
-                  <h4 className="mb-2 text-[26px]">Registered Address</h4>
+                  <h4 className="mb-2 text-[20px] md:text-[26px]">
+                    Registered Address
+                  </h4>
                   <img src="/images/icons/placeholder.png" alt="" />
                 </div>
               </div>
             </div>
 
             <div className="mt-9">
-              <h3 className="text-[32px]">Sign Up</h3>
+              <h3 className="text-2xl md:text-[32px]">Sign Up</h3>
               <h5 className="mt-4 text-[22px] font-light leading-[32px]">
                 Register and complete a straightforward Know Your Business (KYB)
                 process to set up your SaaSPay account and get ready to go.
