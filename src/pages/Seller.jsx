@@ -3,10 +3,10 @@ import CallToAction from "../components/seller/CallToAction";
 import Companies from "../components/seller/Companies";
 import Hero from "../components/seller/Hero";
 import CaseStudies from "../components/seller/caseStudies";
-import Faqs from "../components/seller/faqs";
 import HowItWorks from "../components/seller/howItWorks";
 import Offers from "../components/seller/offers";
 import Process from "../components/seller/process";
+import Faqs from "../components/shared/faqs";
 
 const Seller = () => {
   return (

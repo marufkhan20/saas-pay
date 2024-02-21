@@ -45,6 +45,10 @@ main {
   box-shadow: 0px 6px 10px 0px #00000008;
 }
 
+.payment-process-item {
+  box-shadow: 0px 6px 10px 0px #04244f1a;
+}
+
 @media (max-width: 640px) {
   .container {
     padding: 0 20px !important;

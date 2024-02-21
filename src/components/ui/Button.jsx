@@ -22,6 +22,9 @@ const Button = ({
   } ${
     variant === "light" &&
     "text-primary bg-white hover:bg-transparent hover:border-white hover:text-white"
+  } ${
+    variant === "light-transparent" &&
+    "text-white hover:text-primary hover:bg-white bg-transparent border-white"
   }`;
 
   return to ? (
